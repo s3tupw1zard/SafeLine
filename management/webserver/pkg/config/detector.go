@@ -11,7 +11,7 @@ type DetectorConfig struct {
 
 func DefaultDetectorConfig() DetectorConfig {
 	return DetectorConfig{
-		Addr:        "http://127.0.0.1:8001",
+		Addr:        "http://tasks.detect:8001",
 		FslBytecode: "bytecode",
 	}
 }
