@@ -15,7 +15,7 @@ type DBConfig struct {
 
 func DefaultDBConfig() DBConfig {
 	return DBConfig{
-		URL:     "postgres://safeline-ce:safeline-ce@127.0.0.1/safeline-ce",
+		URL:     "postgres://safeline-ce:safeline-ce@tasks.postgres/safeline-ce",
 		LogSQL:  false,
 		SSLMode: false,
 	}
